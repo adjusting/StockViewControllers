@@ -27,5 +27,17 @@ class ViewController: UIViewController {
         self.present(controller, animated: true, completion: nil)
     }
 
+    @IBAction func experiment3(_ sender: UIButton) {
+        let controller = UIAlertController()
+        controller.title = "Test Alert"
+        controller.message = "This is a test"
+        
+        let okAction = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default) { action in self.dismiss(animated: true, completion: nil)
+        }
+        
+        controller.addAction(okAction)
+        self.present(controller, animated: true, completion: nil)
+    }
+
 }
 
