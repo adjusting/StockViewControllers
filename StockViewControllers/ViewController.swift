@@ -16,9 +16,15 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func experiment(_ sender: Any) {
+    @IBAction func experiment1(_ sender: UIButton) {
         let nextController = UIImagePickerController()
         self.present(nextController, animated: true, completion: nil)
+    }
+
+    @IBAction func experiment2(_ sender: UIButton) {
+        let image = UIImage()
+        let controller = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        self.present(controller, animated: true, completion: nil)
     }
 
 }

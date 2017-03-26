@@ -22,11 +22,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSV-Nt-YsF">
-                                <rect key="frame" x="159" y="318" width="56" height="30"/>
+                                <rect key="frame" x="143" y="318" width="89" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Present"/>
+                                <state key="normal" title="Image Picker"/>
                                 <connections>
-                                    <action selector="experiment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2xo-9l-xKU"/>
+                                    <action selector="experiment1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZaJ-pU-B7D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMN-Mv-SDk">
+                                <rect key="frame" x="143" y="356" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Activity View"/>
+                                <connections>
+                                    <action selector="experiment2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lN9-p9-Lj0"/>
                                 </connections>
                             </button>
                         </subviews>
